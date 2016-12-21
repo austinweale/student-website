@@ -1,0 +1,24 @@
+body {
+   text-align: center;
+   font-size: x-large;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   padding-top: 10%;
+}
+
+a {
+   text-decoration: none;
+   font-family: monospace;
+   color: #777;
+   transition: color 0.1s ease-in-out;
+}
+
+a:hover {
+   color: #111;
+   font-family: "Comic Sans MS", cursive;
+   
+}

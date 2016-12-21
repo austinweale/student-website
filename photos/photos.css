@@ -1,0 +1,52 @@
+body{
+	background-color: #ddd8d8;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#photos{
+	width: 100%;
+}
+
+#photos img{
+	max-width: 40%;
+}
+
+h1{
+	font-size: 100pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-size: 12pt;
+}
+
+#controls{
+	width: 40%;
+	margin: auto;
+}
+
+button{
+	width: 10%;
+	font-size: 16pt;
+}
+
+#left{
+	float: left;
+}
+
+#right{
+	float: right;
+}
+
+a{
+	font-size: 14pt;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: gray;
+}

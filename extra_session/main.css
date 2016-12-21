@@ -1,0 +1,21 @@
+body {
+	font-weight: 300;
+}
+
+img { 
+	max-width: 100%;
+}
+
+@media (max-width: 778px){
+	/*these styles only display on screens less than 778px
+	you can test this by resizing your browser*/
+
+	p {
+		display:none;
+	}
+
+	img {
+		margin-bottom: 10px;
+	}
+}
+

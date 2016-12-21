@@ -1,0 +1,187 @@
+/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #E9EAEE;
+}
+
+h1{
+	font-family: "Raleway", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+h2{
+	color: #BC6026;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline;
+}
+
+#top-icon {
+	fill: white;
+}
+
+svg {
+	height: 1em;
+}
+
+nav{
+ 	color: white;
+ }
+
+.container{
+	padding-top: 3em;
+}
+
+nav {
+	z-index: 99;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #181C22;
+	font-size: 16px;
+	padding-left: 15px;
+	width: 100%;
+}
+
+#motto {
+	display: none;
+}
+
+
+
+#headline {
+	font-style: italic;
+}
+
+#headline-icon{
+	display: none;
+}
+
+#map{
+	border-radius: 5px;
+}
+
+#cafe{
+	background-color: #dbdce3;
+	text-align: center;
+}
+
+dd{
+	font-style: italic;
+	padding-left: 1em;
+}
+ #story-img {
+ 	float: right;
+ 	max-height: 300px;
+ 	margin-left: 1em;
+ 	border-radius: 5px;
+ }
+
+ #story{
+ 	background-color: #dbdce3;
+ }
+
+ footer{
+ 	border-top: 3px solid #D87E28;
+ 	background-color: #afb3c2;
+ 	font-size: 12px;
+ 	padding: 1em;
+ 	clear: both;
+ }
+
+ .nav-link{
+ 	color: white;
+	padding: .5em;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+ #headline svg, #cafe svg{
+ 	fill: #D87E28;
+ }
+
+@media (min-width: 768px){
+	body{
+		font-size: 20px;
+	}
+
+	 #story-img{
+	 	max-height: 400px;
+	 }
+
+	#motto {
+		display: block;
+	}
+
+	nav{
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	a{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	h2{
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	#header{
+		min-height: 550px;
+		text-align: right;
+		color: white;
+		background-repeat: no-repeat;
+		background-image: url("../img/background-sm.jpg");
+	}
+
+	#headline-icon {
+		display: inline;
+		height: 1.5em;
+		margin-bottom: 1em;
+	}
+
+	#headline{
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+
+	#right-footer{
+		text-align: right;
+	}
+}
+
+@media (min-width: 992px){
+	#header{
+		background-image: url("../img/background-md.jpg");
+		background-repeat: no-repeat;
+
+	}
+
+	h1{
+		font-size: 4em;
+	}
+}
+
+@media (min-width: 1200px){
+	#header{
+		background-image: url("../img/background-lg.jpg");
+		background-repeat: no-repeat;
+	}
+}
+
+
+

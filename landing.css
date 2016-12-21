@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Orator";
+    src: url(Orator.ttf) format("truetype");
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	padding-bottom: 60px;
+	
+}
+.footer {
+	border-top: 1px solid white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #252727;
+}
+
+body{
+	margin-bottom: 60px;
+	background-color: #252727;
+	color: white;
+}
+
+#picture {
+	text-align: right;
+}
+
+h1, h2 {
+	text-align: center;
+	font-size: 50pt;
+	font-family: "Orator", sans-serif;
+}
+
+h2{
+	border-bottom: 1px solid gray;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 20pt;
+}
+
+#video-frame {
+	text-align: center;
+}
+
+ul{
+	list-style-type:none;
+}
+
+li{
+	width: 100%;
+	padding: 5px;
+	margin:5px;
+}
+
+a {
+	color: #ABECE4;
+	display: block;
+	width: 100%;
+	font-family: "Orator", sans-serif;
+}
+
+div img {
+	width: 200px;
+}
+
+#content {
+	margin-top: 40px;
+}
+#hackheight{
+	clear: both;
+}
+
+@media(max-width: 992px){
+	h1{
+		font-size: 30pt;
+	}
+
+	li{
+		border-bottom: 1px solid gray;
+	}
+
+	body, #picture {
+		text-align: center;
+	}
+
+	ul {
+		padding: 0px;
+	}
+
+	.btn-lg{
+		border-radius: 0px;
+	}
+}
+
+
+

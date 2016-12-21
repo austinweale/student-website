@@ -1,0 +1,157 @@
+body {
+	background-color: #51A5C9;
+	color: white;
+}
+
+h1 {
+	margin-top: 10px;
+	font-size: 80pt;
+	font-family: "Bebas", sans-serif;
+	text-align: center;
+	border-bottom: 5px solid white;
+}
+
+#content {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 20px;
+
+}
+
+@media (max-width: 1000px){
+	#readNav{
+		display: none;
+	}
+
+}
+
+p, h2{
+	color: #687174;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: 45pt;
+	text-align: center;
+	border-bottom: 3px solid #687174;
+	margin-bottom: 25px;
+}
+
+p{
+	text-indent: 40px;
+}
+
+ul{
+	font-size: 16pt;
+	margin-bottom: 7px;
+	text-align: center;
+	font-family: sans-serif;
+	list-style-type: none;
+}
+ul li {
+    display: inline;
+    
+}
+.selected{
+	border-bottom: 3px solid white;
+}
+
+.space{
+	margin-left: 30px;
+}
+
+li:hover{
+	cursor: crosshair;
+	
+}
+
+#readNav li:hover { 
+	font-weight: bold;
+}
+
+ul li:hover{
+	color: #687174;
+
+}
+
+#femtech{
+	overflow: hidden;
+}
+
+#femtech > div{
+	float: left;
+}
+
+div img{
+	margin-right: 10px;
+}
+
+#column1{
+	width: 33%;
+}
+
+#column2{
+	width: 66%;
+}
+
+img{
+	max-width: 90%;
+}
+
+.hidden {
+	display: none;
+}
+
+#readNav {
+	color: white;
+	position: fixed;
+	right: 0px;
+	top: 200px;
+	margin-right: 20px;
+	background-color: #687174;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: sans-serif;
+	font-size: 11pt;
+
+}
+
+#readNav, #readNav p{
+	color: white;
+}
+
+#readNav p{
+	font-weight: bold;
+	text-indent: 0px;
+	text-decoration: underline;
+}
+
+ol{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#abbate, #geek, #work{
+	margin-top: 50px;
+}
+
+#reading p img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#reading p img:nth-child(2){
+	margin-top: 10px;
+}
+
+ul{
+	padding-left:0px;
+}
+
+#content p{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}

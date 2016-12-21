@@ -1,0 +1,120 @@
+body{
+	/*background-color: #FFFEEE;*/
+	text-align: center;
+	position: relative;
+	
+}
+
+h1{
+	font-size: 72pt;
+	font-family: sans-serif;
+	color:#1c1b1b;
+	/*border-bottom: 5px solid gray;*/
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h2{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 0px;
+}
+
+.select {
+	display: inline;
+	margin: 5px;
+	font-size: 20pt;
+}
+
+#selectionBox {
+	overflow: hidden;
+}
+
+#selection{
+	font-weight: bold;
+	width: 50%;
+	margin:auto;
+	padding: 0px;
+}
+
+#input {
+	clear: both;
+}
+
+img {
+	position: fixed;
+	bottom:0px;
+	right: 0px;
+}
+.column{
+	float: left;
+	margin-left: 20px;
+}
+
+#bottom {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	clear: left;
+	width: 60%;
+	border-bottom: 2px solid #37C3E0;
+	
+}
+
+#content{
+	padding-top: 20px;
+	/*background-color: #E2EDFF;*/
+	width: 50%;
+	text-align: center;
+	margin:auto;
+	/*border-top: 5px solid gray;*/
+}
+
+#all{
+	height:180px;
+	font-size: 14pt;
+	/*border-top: 2px solid #E2EDFF;*/
+	border-top: 2px solid #37C3E0;
+	overflow: hidden;
+	width: 60%;
+	margin:auto;
+}
+
+input{
+	margin-bottom: 4px;
+}
+
+button {
+	color: white;
+	text-shadow: 2px 2px gray;
+	font-weight: bold;
+	margin: 4px;
+	background-color:#37C3E0;
+}
+
+#time{
+	
+	font-family: monospace;
+	display: inline;
+	padding: 2px;
+	font-size: 20pt;
+	color: black;
+	margin-top: 2px;
+}
+
+button, input{
+	font-size: 14pt;
+}
+
+button:disabled {
+	background-color: gray;
+}
+
+.abbr {
+	position: absolute;
+	background-color: #f0ec92;
+}
+
+.blue{
+	color:#37C3E0;
+}

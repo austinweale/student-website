@@ -1,0 +1,62 @@
+body {
+	font-family: sans-serif;
+	background-image: url("background.jpg");
+	background-repeat: repeat;
+
+}
+
+#beta {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+fieldset {
+	margin-top: 5px;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+h1, fieldset {
+	text-align: center;
+	border: none;
+	color: #0B4C5F;
+}
+
+#ball {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+
+#ballarea {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 2px solid #848484;*/
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #888888;
+
+	background-position: 0px 0px;
+	overflow: hidden;
+	
+	background-image: url("landscape.jpg");
+	/*background-repeat: repeat;*/
+}
+
+#token {
+	position: relative;
+	background-image: url("token.jpg");
+	width: 40px;
+	height: 160px;
+}
+
+#loading {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

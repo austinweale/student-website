@@ -1,0 +1,6 @@
+About:beach:Austin Weale's Portfolio:A page for all of my Web projects. You can view my resume below:Resume:resume.html
+Anagramapalooza:anagrams:Anagramapalooza:This is a word game that involves typing all of the anagrams of a given word. I made this using Javascript:Click Here to Play:anagrams/index.html
+Photos:photos:Photo Projects:A page that shows some of the photography/photoshop projects I have worked on:Click Here to View:photos/index.html
+Gender and Tech:gender:Gender and Technology:This is a webpage I made for my Gender and Technology class I took. I made it using HTML/CSS/Javascript:Click Here to View:genderandtech.index.html
+Flappy Penguin:flappy:Flappy Penguin:This is one of the first webpages I made. It is a unfinished game based on Flappy Bird. I used Javascript to manipulate HTML tags to get the game behavior:Click Here to Play:flappypenguin/flappypenguin.html
+Draw:draw:Draw:A blank page you can draw on!:I used Javascript for this project:Click Here to Draw:draw/index.html
